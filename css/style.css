@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #222;
+  padding: 0 0 0 0px;
+  text-align: center;
+  margin-right: 30px;
+
+
+}
+#logopic{
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+
+}
+li{
+  padding-right: 10px;
+
+}
+nav-wrapper container{
+  display: inline-block;
+  max-height: 50px;
+  width: 100%;
+}
+.container{
+  width: 100%;
+}
+
+p {
+  line-height: 1.5rem;
+
+
+
+}
+
+footer.page-footer{
+  margin-top: 0;
+
+}
+
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 440px;
+  line-height: 0;
+  height: auto;
+}
+
+  .parallax-container .section {
+    width: 100%;
+    padding: 0;
+
+  }
+
+.center-align light{
+  font-size: 59px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+#logopic{
+  margin-left: 40%;
+}
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #logopic{
+    margin-left: 30%;
+  }
+}
+
+.icon-block {
+  padding: 0;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
