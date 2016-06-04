@@ -18,14 +18,14 @@ nav .brand-logo {
 
 
 }
-#logopic{
+.logopic{
   width: 100%;
   height: auto;
   max-width: 200px;
   max-height: 200px;
 
 }
-#heropic{
+.heropic{
   width: 100%;
 }
 li{
