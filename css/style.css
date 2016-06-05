@@ -8,6 +8,10 @@
 *{
   font-family: 'Raleway', sans-serif;
 }
+blockquote{
+  width: 100%;
+  height: auto;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -52,6 +56,13 @@ p {
 footer.page-footer{
   margin-top: 0;
 
+}
+.grey-text{
+  width: 50%;
+  height: auto;
+}
+h5{
+  color: #FFF;
 }
 
 
